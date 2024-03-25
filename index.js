@@ -14,7 +14,7 @@ app.use(
 );
 
 const welcome = (req, res) => {
-  res.send("Welcome to my favourite movie list");
+  res.send("Bienvenue to my favourite movie list");
 };
 
 app.get("/", welcome);
