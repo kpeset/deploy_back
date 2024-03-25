@@ -68,7 +68,7 @@ app.get("/api/movies/:id", getMovieById);
 
 app
   .listen(port, () => {
-    console.info(`Server is listening on port ${port}`);
+    console.info(`Le server sur le port ${port}`);
   })
   .on("error", (err) => {
     console.error("Error:", err.message);
